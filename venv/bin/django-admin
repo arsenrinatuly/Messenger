@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!/home/arsen/Desktop/pye-242-rest-api-main/venv/bin/python3
+=======
+#!/home/arsen/Desktop/pyee/venv/bin/python3
+>>>>>>> d211408 (hz)
 # -*- coding: utf-8 -*-
 import re
 import sys

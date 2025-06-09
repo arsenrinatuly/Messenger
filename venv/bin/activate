@@ -39,10 +39,17 @@ deactivate nondestructive
 if [ "${OSTYPE:-}" = "cygwin" ] || [ "${OSTYPE:-}" = "msys" ] ; then
     # transform D:\path\to\venv to /d/path/to/venv on MSYS
     # and to /cygdrive/d/path/to/venv on Cygwin
+<<<<<<< HEAD
     export VIRTUAL_ENV=$(cygpath /home/arsen/Desktop/pye-242-rest-api-main/venv)
 else
     # use the path as-is
     export VIRTUAL_ENV=/home/arsen/Desktop/pye-242-rest-api-main/venv
+=======
+    export VIRTUAL_ENV=$(cygpath /home/arsen/Desktop/pyee/venv)
+else
+    # use the path as-is
+    export VIRTUAL_ENV=/home/arsen/Desktop/pyee/venv
+>>>>>>> d211408 (hz)
 fi
 
 _OLD_VIRTUAL_PATH="$PATH"

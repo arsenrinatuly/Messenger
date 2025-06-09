@@ -33,7 +33,11 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
+<<<<<<< HEAD
 set -gx VIRTUAL_ENV /home/arsen/Desktop/pye-242-rest-api-main/venv
+=======
+set -gx VIRTUAL_ENV /home/arsen/Desktop/pyee/venv
+>>>>>>> d211408 (hz)
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH
