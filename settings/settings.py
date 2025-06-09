@@ -3,10 +3,7 @@ import os
 
 from decouple import config
 
-<<<<<<< HEAD
-=======
 from datetime import timedelta
->>>>>>> d211408 (hz)
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -17,11 +14,8 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
-<<<<<<< HEAD
-=======
     'rest_framework_simplejwt',
     "drf_yasg",
->>>>>>> d211408 (hz)
     "rest_framework",
     "images.apps.ImagesConfig",
     "users.apps.UsersConfig",
@@ -72,12 +66,9 @@ DATABASES = {
 REST_FRAMEWORK = {
     "DEFAULT_PERMISSION_CLASSES": [
         "rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly"
-<<<<<<< HEAD
-=======
     ],
     "DEFAULT_AUTHENTICATION_CLASSES": [ 
         "   rest_framework_simplejwt.authentication.JWTAuthentication"
->>>>>>> d211408 (hz)
     ]
 }
 
@@ -122,8 +113,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-<<<<<<< HEAD
-=======
 
 SWAGGER_SETTINGS = {
     "SECURITY_DEFINITIONS": {
@@ -178,4 +167,3 @@ SIMPLE_JWT = {
     "SLIDING_TOKEN_OBTAIN_SERIALIZER": "rest_framework_simplejwt.serializers.TokenObtainSlidingSerializer",
     "SLIDING_TOKEN_REFRESH_SERIALIZER": "rest_framework_simplejwt.serializers.TokenRefreshSlidingSerializer",
 }
->>>>>>> d211408 (hz)
